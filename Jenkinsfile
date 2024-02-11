@@ -11,6 +11,7 @@ pipeline {
                 // Your build steps here
                 sh 'echo "Building..."'
                 sh 'ls'
+                echo ${params.env}
             }
         }
         
